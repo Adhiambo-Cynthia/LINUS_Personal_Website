@@ -1,0 +1,219 @@
+body{ 
+    background-color: #fbfdfd;
+    
+    line-height: 2em;
+    margin: 0;
+}
+.clr{
+    clear: both;}
+.container{
+    width: 90%;
+    margin: auto;}
+#nav-bar{
+    top: 0;
+    background-color: rgb(95, 94, 94);
+    width: 100%;
+    
+}
+#nav-bar h2{
+    float: left;
+    font-size:1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    
+}
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+    float: right;
+    
+}
+#nav-bar li{
+    display: inline;
+    font-size:1.6em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-right: 20px;
+    
+}
+#nav-bar li a{
+    color: black;
+    
+    text-decoration: none
+    }
+#nav-bar li a:hover{
+                 color:rgb(99, 96, 96);
+                      }
+
+
+.Int-box{
+    top: 50px;
+    margin-top: 10px;
+    border: black solid 2px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url('../LINUS_WEBSITE/images/into.jpg');
+
+}
+
+#main{
+    float: left;
+    width: 70%;
+    margin-top:40px;
+} 
+#main p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+#side{
+    float: right;
+    width: 30%;
+    height: 350px;
+    margin-top: 60px;
+    background-image: url(../LINUS_WEBSITE/images/home1.PNG);
+    
+}
+.block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post{
+    float: left;
+    width: 25%;
+    padding: 8px;
+    box-sizing: border-box;
+background-color: rgb(210, 214, 213);}
+.post a:hover{
+    opacity: 0.6;
+}    
+.additional{
+        float: left;
+        width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+.additional h2{
+        color: rgb(76, 93, 94);
+        font-weight: 2px;
+        
+}       
+.additional li{
+    background-color:rgb(2, 15, 15);
+    color: white;
+    font-weight: 100;
+    border-radius: 10px;
+    padding: 8px;
+    display: inline;
+}
+.additional a{
+    color: rgb(36, 32, 32);
+    
+} 
+.additional small{
+    color: rgb(36, 32, 32);
+    
+} 
+.additional a:hover{
+    color: rgb(117, 119, 119);
+    
+}        
+#footer {
+    margin-top: 10px;
+    background-color:#555353;
+    color: white;
+    overflow: hidden;
+    position: static;
+    bottom:0;
+    width: 100%;
+    height:auto;} 
+#contact{
+    float: left;
+    width: 50%;
+    margin-top:10px;
+    padding-left: 20px;
+    
+    box-sizing: border-box;
+} 
+#contact.Email{
+    position: relative;
+    left:600px;
+    font-size: 25px;
+      font-family: 'Marcellus SC', serif;
+      
+    }
+#remark{
+    float: right;
+    width: 50%;
+    margin-top:10px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+} 
+#copyright{
+    background-color: #555353;
+    width: 100%;
+    height:80px;
+}  
+#copyright p{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    
+}
+#side-bar{
+    
+    position: static;
+    padding-top: 20px
+}
+#side-bar ul{padding: 0;
+    list-style: none;
+}
+#side-bar li{
+    display: inline;
+    
+    margin:30px ;
+
+}
+#side-bar.fa {
+    padding:20;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin:5px 2px;
+    border-radius:30px
+  }
+  .fa:hover {
+  opacity: 0.7;}
+  .fa-facebook {
+  color: white;
+  color: white;
+    padding: 10px;
+    background-color: rgb(95, 112, 112);
+                }
+  
+  .fa-twitter {
+    
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 112, 112);
+  }
+  .fa-linkedin {
+    color: white;
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 112, 112);
+  }
+  .fa-instagram {
+    color: white;
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 112, 112);
+  }
+  .fa-github {
+    color: white;
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 112, 112);}

@@ -1,0 +1,19 @@
+.centre{
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+}
+
+.contained{
+    width: 60%;
+    margin: auto;
+}
+.contained h2{
+    text-align: center;
+}
+.contained h3{
+    text-align: center;
+}
+.contained p{
+    text-align: center;
+}

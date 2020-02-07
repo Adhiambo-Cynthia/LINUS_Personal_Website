@@ -1,0 +1,86 @@
+body{ 
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2em;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+.container h1{
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.5em;
+    text-decoration: underline;
+    
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
+a:hover{
+    color:red;
+    }
+a:visited{
+    color: green;
+} 
+.post{
+    float: left;
+    width: 33.3%;
+    border: grey 2px solid;
+    padding: 5px;
+    box-sizing: border-box;
+} 
+#main{
+    float: left;
+width: 70%;
+margin-top:30px;
+
+}  
+#side{
+    float: right;
+    width: 30%;
+    margin-top: 30px;
+    background-color:thistle;
+}
+
+#trending{
+    display: block;
+    padding: 5px;
+    border: grey solid 1px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+#promotions{
+    display: block;
+    padding: 5px;
+    border: grey solid 1px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+.pbox{
+    margin-top: 15px;
+    border: grey solid 2px;
+    position: relative;
+    width: 90%;
+    height: 500px;
+    background-image: url('../AUTHENTICAFRICAN/images/denim2.png');
+
+}
+.pbox h3{
+    position: absolute;
+    top: 50px;
+}
+
+
+footer p{
+    text-align: center;
+    
+}
