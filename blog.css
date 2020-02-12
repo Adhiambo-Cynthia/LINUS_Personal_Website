@@ -20,16 +20,30 @@ body{
 .clr{
     clear: both;
 }
+#post_pic1{
+    background-image: url(../LINUS_WEBSITE/images/port1.PNG);}
+#post_pic2{
+    background-image: url(../LINUS_WEBSITE/images/port2.PNG);}
+#post_pic3{
+    background-image: url(../LINUS_WEBSITE/images/port3.PNG);}
+#post_pic1, #post_pic2, #post_pic3{    
+    margin: auto;
+    height: 200px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+
 a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(43, 174, 226);
 
 }
 a:hover{
-    color:red;
+    color:rgb(44, 43, 43);
     }
 a:visited{
-    color: green;
+    color: rgb(180, 147, 175);
 } 
 .post{
     float: left;
@@ -38,17 +52,35 @@ a:visited{
     padding: 5px;
     box-sizing: border-box;
 } 
-#main{
-    float: left;
-width: 70%;
-margin-top:30px;
-
-}  
-#side{
+#blogp1{
+    background-image: url('../LINUS_WEBSITE/images/into.jpg');
+    min-height: 100px;
+}
+#blogp2{
+    background-image: url('../LINUS_WEBSITE/images/home2.PNG');
+    min-height: 100px;
+}
+#blogp1, #blogp2{
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+#mainp{
+        float: left;
+        width: 70%;
+        margin-top: 30px;
+        background-color:thistle;
+        padding-left: 5px;
+        box-sizing: border-box;
+    }
+ 
+#sidep{
     float: right;
     width: 30%;
     margin-top: 30px;
-    background-color:thistle;
+    
 }
 
 #trending{
@@ -65,21 +97,6 @@ margin-top:30px;
     box-sizing: border-box;
     margin: 5px;
 }
-.pbox{
-    margin-top: 15px;
-    border: grey solid 2px;
-    position: relative;
-    width: 90%;
-    height: 500px;
-    background-image: url('../AUTHENTICAFRICAN/images/denim2.png');
-
-}
-.pbox h3{
-    position: absolute;
-    top: 50px;
-}
-
-
 footer p{
     text-align: center;
     
