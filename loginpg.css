@@ -1,17 +1,17 @@
 .button{
-    background-color: rgb(255, 80, 197);
-    color: darkgrey;
+    background-color: rgb(178, 225, 233);
+    color: black;
     padding: 10px;
     width: 10em;
 }
 .button:hover{
-    background:rgb(255, 174, 0);
-    color: royalblue;
+    background:rgb(141, 139, 135);
+    color:white;
 }
 
 .myform{
     padding: 15px;
-    width: 90%;
+    width: 30%;
     margin: auto;
 }
 .myform.form-group{
@@ -22,8 +22,8 @@
 .myform label{
     display:block;
     color: cadetblue;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 10px;
 }
