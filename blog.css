@@ -21,11 +21,11 @@ body{
     clear: both;
 }
 #post_pic1{
-    background-image: url(../LINUS_WEBSITE/images/port1.PNG);}
+    background-image: url(images/port1.PNG);}
 #post_pic2{
-    background-image: url(../LINUS_WEBSITE/images/port2.PNG);}
+    background-image: url(images/port2.PNG);}
 #post_pic3{
-    background-image: url(../LINUS_WEBSITE/images/port3.PNG);}
+    background-image: url(images/port3.PNG);}
 #post_pic1, #post_pic2, #post_pic3{    
     margin: auto;
     height: 200px;
@@ -53,11 +53,11 @@ a:visited{
     box-sizing: border-box;
 } 
 #blogp1{
-    background-image: url('../LINUS_WEBSITE/images/into.jpg');
+    background-image: url('images/into.jpg');
     min-height: 100px;
 }
 #blogp2{
-    background-image: url('../LINUS_WEBSITE/images/home2.PNG');
+    background-image: url('images/home2.PNG');
     min-height: 100px;
 }
 #blogp1, #blogp2{
