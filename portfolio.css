@@ -27,30 +27,30 @@
         width: 30%;
         height: 300px;
         margin-top: 30px;
-        background-image: url(../LINUS_WEBSITE/images/port1.PNG);
+        background-image: url(images/port1.PNG);
      }
 #pic2{
         float: left;
         width: 30%;
         height: 300px;
         margin-top: 30px;
-        background-image: url(../LINUS_WEBSITE/images/port2.PNG);
+        background-image: url(images/port2.PNG);
         }
 #pic3{
         float: right;
         width: 30%;
         height: 300px;
         margin-top: 30px;
-        background-image: url(../LINUS_WEBSITE/images/port3.PNG);}
+        background-image: url(images/port3.PNG);}
 #pic4{
         float: left;
         width: 30%;
         height: 300px;
         margin-top: 30px;
-        background-image: url(../LINUS_WEBSITE/images/port4.PNG);}
+        background-image: url(images/port4.PNG);}
 #pic5{
         float: right;
         width: 30%;
         height: 300px;
         margin-top: 30px;
-        background-image: url(../LINUS_WEBSITE/images/home2.PNG); }                  
+        background-image: url(images/home2.PNG); }                  
