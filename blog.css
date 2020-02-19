@@ -42,9 +42,7 @@ a{
 a:hover{
     color:rgb(44, 43, 43);
     }
-a:visited{
-    color: rgb(180, 147, 175);
-} 
+
 .post{
     float: left;
     width: 33.3%;

@@ -11,8 +11,9 @@ body{
     margin: auto;}
 #nav-bar{
     top: 0;
-    background-color: rgb(95, 94, 94);
+    background-color:transparent;
     width: 100%;
+    height: 10%;
     
 }
 #nav-bar h2{
@@ -82,7 +83,7 @@ body{
     width: 30%;
     height: 350px;
     margin-top: 60px;
-    background-image: url(/images/home1.PNG);
+    background-image: url('images/home1.PNG');
     
 }
 .block{
@@ -190,7 +191,6 @@ display: list-item;
 }
 #side-bar li{
     display: inline;
-    
     margin:30px ;
 
 }

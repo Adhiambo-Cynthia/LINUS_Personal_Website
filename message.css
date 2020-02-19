@@ -1,33 +1,41 @@
-.button{
-    background-color: rgb(178, 225, 233);
-    color: black;
-    padding: 10px;
-    width: 10em;
-}
-.button:hover{
-    background:rgb(141, 139, 135);
-    color:white;
-}
-
-.myform{
-    padding: 15px;
-    width: 30%;
+.container{
+    background-color: rgb(230, 208, 240);
+    width: 70%;
+    height: 80%;
     margin: auto;
-}
-.myform.form-group{
-    padding: 15px;
-
-
-}
-.myform label{
-    display:block;
-    color: cadetblue;
-    font-weight: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    margin: 10px;
-}
-.myform input{
+    position: relative;
     padding: 10px;
+  
+  }
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+input[type=email]{
+    width: 60%;
+    padding: 12px; 
 
-}
+
+}   
+button {
+    background-color: rgb(102, 76, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #b47cb9;
+   
+  }
+.error{
+    color:red ;
+  }
+  
