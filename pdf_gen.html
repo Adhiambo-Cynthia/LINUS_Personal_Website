@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PDF Generator</title>
+        <link rel="stylesheet" href="pdf_gen.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="topBar">
+            <button class="btn" id="prev_page">
+                <i class="fas fa-chevron-circle-left"></i>Previous page
+            </button>
+            <button class="btn" id="next_page">
+                Next Page<i class="fas fa-chevron-circle-right"></i>
+            </button>
+            <span class="page_info">
+                Page <span id="page_num"></span> of <span id="page_count"></span>
+            </span>
+        </div>
+        <canvas id="page_render"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.3.200/pdf.min.js"></script>
+    <script src="pdf_gen.js"></script>
+    </body>
+</html>

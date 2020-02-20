@@ -1,0 +1,23 @@
+.top-bar {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+.btn {
+    background: rgb(12, 131, 125);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+  }
+  
+.btn:hover {
+    opacity: 0.7;
+  }
+.page_info{
+    background: #333;
+    color: #fff;
+    padding: 5px;}
+
+  
