@@ -1,0 +1,32 @@
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body onload="move()">
+
+<div class="w3-container">
+  <div class="w3-light-grey">
+    <div id="myBar" class="w3-teal" style="height:20px;width:0"></div>
+  </div>
+  <br>
+</div>
+
+<script>
+    
+function move() {
+  const elem = document.getElementById("myBar");   
+  const width = 1;
+  const id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+</script>
+
+</body>
+</html> 

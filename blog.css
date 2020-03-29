@@ -17,22 +17,17 @@ body{
     text-decoration: underline;
     
 }
-.clr{
-    clear: both;
-}
-#post_pic1{
-    background-image: url(images/port1.PNG);}
-#post_pic2{
-    background-image: url(images/port2.PNG);}
-#post_pic3{
-    background-image: url(images/port3.PNG);}
-#post_pic1, #post_pic2, #post_pic3{    
-    margin: auto;
-    height: 200px;
-    width: 350px;
-    box-sizing: border-box;
+.block1{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
+.post{
+    margin-top: 20px;
+}
+.post_pic{
+    width: 80%;}
+    
 
 a{
     text-decoration: none;
@@ -43,20 +38,13 @@ a:hover{
     color:rgb(44, 43, 43);
     }
 
-.post{
-    float: left;
-    width: 33.3%;
-    border: grey 2px solid;
-    padding: 5px;
-    box-sizing: border-box;
-} 
 #blogp1{
     background-image: url('images/into.jpg');
-    min-height: 100px;
+    min-height: 200px;
 }
 #blogp2{
     background-image: url('images/home2.PNG');
-    min-height: 100px;
+    min-height: 200px;
 }
 #blogp1, #blogp2{
     position: relative;
@@ -65,6 +53,12 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;}
+@media screen and (max-width: 750px){
+        .block1{
+            display: block;
+        }
+
+
 #mainp{
         float: left;
         width: 70%;

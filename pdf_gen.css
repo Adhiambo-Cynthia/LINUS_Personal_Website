@@ -19,5 +19,10 @@
     background: #333;
     color: #fff;
     padding: 5px;}
+@media screen and (max-width: 750px){
+  .page_info{display: block;
+  width: 20%;}
+  
+}
 
   

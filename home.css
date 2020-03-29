@@ -9,27 +9,32 @@ body{
 .container{
     width: 90%;
     margin: auto;}
-#nav-bar{
+.nav-bar{
     top: 0;
     background-color:transparent;
     width: 100%;
     height: 10%;
     
 }
-#nav-bar h2{
+.nav-bar h2{
     float: left;
     font-size:1.5em;
     font-family: 'Times New Roman', Times, serif;
     color:black;
     
 }
-#nav-bar ul{
+@media screen and (max-width: 750px){
+    .nav-bar h2{
+        display: none;
+    }
+}
+.nav-bar ul{
     padding: 0;
     list-style: none;
     float: right;
     
 }
-#nav-bar li{
+.nav-bar li{
     display: inline;
     font-size:1.6em;
     font-family: 'Times New Roman', Times, serif;
@@ -37,16 +42,35 @@ body{
     margin-right: 20px;
     
 }
-#nav-bar li a{
+.nav-bar li a{
     color: black;
     
     text-decoration: none
     }
-#nav-bar li a:hover{
+.nav-bar li a:hover{
                  color:rgb(99, 96, 96);
                       }
 
-
+/* .icon{
+    margin-left: 10px;
+    color: black;
+    font-size: 1.7em;
+    text-decoration: none;
+    display: none; 
+}
+.icon:hover{
+    opacity: 0.7;
+}
+@media screen and (max-width: 750px) {
+    .icon{ 
+        display: inline;}
+  }
+  .nav-bar .responsive ul {position: relative;
+    float: none;}
+  .nav-bar .responsive li {
+    display: block;
+    text-align: left;
+  } */
 .Int-box{
     top: 50px;
     margin-top: 10px;
@@ -59,10 +83,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
-
+    }   
+@media screen and (max-width: 750px){
+    .Int-box{
+        top: 100px;
+        height: 350px;
+    }
 }
-
 #main{
     float: left;
     width: 70%;
@@ -86,32 +113,130 @@ body{
     background-image: url('images/home1.PNG');
     
 }
+@media screen and (max-width: 750px){
+    
+    #main{float: none;
+    width: 100%;
+    margin-top:60px;}
+    
+    #side{
+        float: none;
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        margin-top: 20px;
+        
+        
+    }
+}
 .block{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#projectsdis{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(173, 172, 173);
+    margin:10px;
+}
 .projects{
-    float: left;
-    width: 25%;
-    padding: 8px;
-    box-sizing: border-box;
-background-color: rgb(210, 214, 213);}
-.projects a:hover{
-    opacity: 0.6;
-}    
+    position: relative;
+    padding: 10px;
+    
+}
+.image{
+        opacity: 1;
+        width: 90%;
+        padding: 5px;
+        }
+.middle{
+        opacity:0;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-40%, -40%);
+    }
+.text{color: beige;}
+
+.projects :hover .image{
+    opacity: 0.5;
+    
+}
+.projects:hover .middle{
+    opacity: 1;
+    
+} 
+@media screen and (max-width: 750px){
+    #projectsdis{
+        display: block;
+    text-align: center;}
+}  
 .additional{
         float: left;
         width: 50%;
         padding: 5px;
         box-sizing: border-box;
     }
-.additional h2{
+.additional2{
+        float: right;
+        width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+.additional h2, .additional2 h2 {
         color: rgb(76, 93, 94);
         font-weight: 2px;
         
 } 
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+
+  
+#myBar1, #myBar2, #myBar3, #myBar4{
+    height: 30px;
+    background-color: rgb(2, 51, 53);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin: 5px, 5px;
+    width: 50%;
+    
+    
+  }
+#myBar1{
+    animation: progress 3s linear infinite;}
+#myBar2{
+    animation: progress1 3s linear infinite;}
+#myBar3{
+    animation: progress2 3s linear infinite;}
+#myBar4{
+    animation: progress3 3s linear infinite; }
+   
+@keyframes progress{
+    0%{width: 50%;}
+    100%{width: 90%;}}
+@keyframes progress1{
+        0%{width: 50%;}
+        100%{width: 80%;}}
+@keyframes progress2{
+            0%{width: 50%;}
+            100%{width: 70%;}}
+@keyframes progress3{
+                0%{width: 50%;}
+                100%{width: 60%;}}
+                       
+    
+    
+    
+  
      
-.additional li{
+.additional2 li{
     background-color:rgb(2, 15, 15);
     color: white;
     font-weight: 100;
@@ -119,11 +244,18 @@ background-color: rgb(210, 214, 213);}
     padding: 8px;
     display: inline;
 }
+@media screen and (max-width: 750px){
+    .additional2 li{
+        display: list-item;
+        margin-bottom: 10px;
+    } 
+}
+
 .additional .plain_list li{
     background-color: white;
     color:black;
     font-weight: 100;
-display: list-item;
+    display: list-item;
  } 
 
 .additional a{
@@ -152,7 +284,6 @@ display: list-item;
     width: 50%;
     margin-top:10px;
     padding-left: 20px;
-    
     box-sizing: border-box;
 } 
 #contact.Email{
@@ -169,18 +300,19 @@ display: list-item;
     padding-right: 20px;
     box-sizing: border-box;
     font-size: 25px;
-} 
-#copyright{
-    background-color: #555353;
-    width: 100%;
-    height:80px;
-}  
-#copyright p{
-    text-align: center;
-    color: white;
-    font-weight: 100;
-    
 }
+@media screen and (max-width: 750px){
+    #contact{
+        float: none;
+        width: 100%;
+    }
+    #remark{
+        float: none;
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+
 #side-bar{
     
     position: static;
@@ -194,6 +326,7 @@ display: list-item;
     margin:30px ;
 
 }
+
 #side-bar.fa {
     padding:20;
     font-size: 30px;
@@ -204,12 +337,16 @@ display: list-item;
     margin:5px 2px;
     border-radius:30px
   }
+@media screen and (max-width: 750px){
+    #side-bar .fa{
+        margin-top: 20px;
+    }
+}
   .fa:hover {
   opacity: 0.7;}
   .fa-facebook {
   color: white;
-  color: white;
-    padding: 10px;
+  padding: 10px;
     background-color: rgb(95, 112, 112);
                 }
   
@@ -236,3 +373,19 @@ display: list-item;
     color: white;
     padding: 10px;
     background-color: rgb(95, 112, 112);}
+    .fa-desktop {
+        color: white;
+        color: white;
+        padding: 10px;
+        background-color: rgb(95, 112, 112);}
+#copyright{
+            background-color: #555353;
+            width: 100%;
+            height:80px;
+        }  
+#copyright p{
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            
+        }       

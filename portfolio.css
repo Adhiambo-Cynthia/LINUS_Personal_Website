@@ -58,4 +58,12 @@
         height: 300px;
         margin-top: 30px;
         background-image: url(images/home2.PNG); 
-        background-repeat: no-repeat;}                  
+        background-repeat: no-repeat;}
+@media screen and (max-width: 750px){
+   .work, .work2{ float: none;
+     width: 100%;}
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+            float: none;
+            width: 100%;
+    }    
+}                        
