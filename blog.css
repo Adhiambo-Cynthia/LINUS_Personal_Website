@@ -76,3 +76,11 @@ a:hover{
     text-align: center;
     
 }}
+@media screen and (max-width: 750px){
+    #mainp{
+        float:none;
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
