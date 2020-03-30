@@ -26,24 +26,27 @@ body{
     margin-top: 20px;
 }
 .post_pic{
-    width: 80%;}
+    width: 80%;
+    height: 250px;}
     
 
 a{
     text-decoration: none;
-    color: rgb(43, 174, 226);
+    color: rgb(13, 13, 14);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
 
 }
 a:hover{
-    color:rgb(44, 43, 43);
+    color:rgb(71, 71, 71);
     }
 
 #blogp1{
-    background-image: url('images/into.jpg');
+    background-image: url('images/blogBG.JPG');
     min-height: 200px;
 }
 #blogp2{
-    background-image: url('images/home2.PNG');
+    background-image: url('images/blogBG2.JPG');
     min-height: 200px;
 }
 #blogp1, #blogp2{
@@ -68,28 +71,8 @@ a:hover{
         box-sizing: border-box;
     }
  
-#sidep{
-    float: right;
-    width: 30%;
-    margin-top: 30px;
-    
-}
 
-#trending{
-    display: block;
-    padding: 5px;
-    border: grey solid 1px;
-    box-sizing: border-box;
-    margin: 5px;
-}
-#promotions{
-    display: block;
-    padding: 5px;
-    border: grey solid 1px;
-    box-sizing: border-box;
-    margin: 5px;
-}
-footer p{
+.footer{
     text-align: center;
     
-}
+}}
