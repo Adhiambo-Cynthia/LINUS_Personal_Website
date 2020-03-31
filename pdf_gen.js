@@ -1,4 +1,4 @@
-const url='sample.pdf'
+const url='linus_resume.pdf'
 let pdfDoc=null,
     pageNum=1,
     pageRendering=false,

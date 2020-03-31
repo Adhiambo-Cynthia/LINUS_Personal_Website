@@ -27,7 +27,8 @@ body{
 }
 .post_pic{
     width: 80%;
-    height: 250px;}
+    height: 250px;
+border-radius: 20px;}
     
 
 a{
